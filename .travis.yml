@@ -1,14 +1,14 @@
 #.travis.yml
-language: ruby
-node_js:
-  - "node"
 git:
   depth: 3
-before_install:
-  - sudo apt-get install -y nodejs
-  - sudo apt-get install -y npm
-script:
-  - npm i
-  - node travis-script.js
-  - bundle exec jekyll build
-cache: bundler
+
+matrix:
+  include:
+    - language: ruby
+      script: bundle exec jekyll build
+      cache: bundler
+
+    - language: node_js
+      node_js: "node"
+      script: node travis-script.js
+      cache: npm
