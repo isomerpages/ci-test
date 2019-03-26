@@ -1,5 +1,7 @@
 #.travis.yml
 language: ruby
+node_js:
+  - "node"
 git:
   depth: 3
 before_install:
