@@ -3,9 +3,10 @@ language: ruby
 git:
   depth: 3
 before_install:
-  - sudo apt-get install -y node
+  - sudo apt-get install -y nodejs
+  - sudo apt-get install -y npm
 script:
-  - sudo npm i -g npm
+  - npm i
   - node travis-script.js
   - bundle exec jekyll build
 cache: bundler
