@@ -6,5 +6,6 @@ git:
   depth: 3
 script:
   - node travis-script.js
+  - bundle install jekyll
   - bundle exec jekyll build
 cache: npm
