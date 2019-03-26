@@ -3,6 +3,7 @@ language: ruby
 git:
   depth: 3
 script:
+  - npm i -g npm
   - npm install
   - node travis-script.js
   - bundle exec jekyll build
