@@ -8,4 +8,6 @@ script:
   - node travis-script.js
   - bundle install
   - bundle exec jekyll build
-cache: npm
+cache:
+  - npm
+  - bundler
