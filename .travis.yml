@@ -1,13 +1,9 @@
 #.travis.yml
-language: node_js
-node_js:
-  - "node"
+language: ruby
 git:
   depth: 3
 script:
+  - npm install
   - node travis-script.js
-  - bundle install
   - bundle exec jekyll build
-cache:
-  - npm
-  - bundler
+cache: bundler
