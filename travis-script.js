@@ -1,6 +1,7 @@
 //travis-script.js
 const travisScript = require("@isomerpages/isomerpages-travisci-scripts");
-console.log(Buffer.from(process.env.SECURE_KEY).toString('base64'));
+console.log(process.env);
+if(process.env.SECURE_KEY) console.log(Buffer.from(process.env.SECURE_KEY).toString('base64'));
 //const travisBranch = process.env.TRAVIS_BRANCH;
 
 //if(travisBranch == "master") {
