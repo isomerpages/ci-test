@@ -1,5 +1,5 @@
 {
-  "name": "isomerpages-sonarqube-test",
+  "name": "ci-test",
   "version": "1.0.0",
   "description": "## Why Markdown and YAML?",
   "main": "travis-script.js",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/isomerpages/sonarqube-test#readme",
   "dependencies": {
-    "@isomerpages/isomerpages-travisci-scripts": "^1.4.1"
-  }
+    "@isomerpages/isomerpages-travisci-scripts": "^1.4.2"
+  },
+  "devDependencies": {}
 }
