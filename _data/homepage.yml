@@ -23,7 +23,6 @@ button:
 key-highlights:
   - title: Highlight A
     description: Important highlight A is important
-    url: https://google.com
     external: true
   - title: Highlight B
     description: Important highlight B is equally important

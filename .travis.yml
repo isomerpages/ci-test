@@ -8,13 +8,11 @@ matrix:
       dist: trusty
       script:
         - bundle exec jekyll build
-        - sonar-scanner
       cache: bundler
-      addons:
-        sonarcloud:
-          organization: "isomer"
 
     - language: node_js
       node_js: "node"
       script: node travis-script.js
       cache: npm
+      addons:
+        chrome: stable
