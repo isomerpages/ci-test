@@ -24,6 +24,7 @@ key-highlights:
   - title: Highlight A
     description: Important highlight A is important
     external: true
+    url: https://yahoo.com
   - title: Highlight B
     description: Important highlight B is equally important
     url: https://yahoo.com
