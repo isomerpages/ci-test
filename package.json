@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/isomerpages/sonarqube-test#readme",
   "dependencies": {
-    "@isomerpages/isomerpages-travisci-scripts": "^1.4.7"
+    "@isomerpages/isomerpages-travisci-scripts": "^1.4.8"
   },
   "devDependencies": {}
 }
